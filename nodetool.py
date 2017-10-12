@@ -482,7 +482,7 @@ class NodeTool(QgsMapToolAdvancedDigitizing):
             # the endpoint indicator - or go back to snapping to editable layers
             map_point = self.toMapCoordinates(e.pos())
             if self.is_near_endpoint_marker(map_point):
-                self.endpoint_marker.setColor(Qt.red)
+                self.endpoint_marker.setColor(Qt.blue)
                 self.endpoint_marker.update()
                 # make it clear this would add endpoint, not move the vertex
                 self.vertex_band.setVisible(False)
@@ -507,7 +507,7 @@ class NodeTool(QgsMapToolAdvancedDigitizing):
                 self.mouse_at_endpoint = Vertex(m.layer(), m.featureId(), m.vertexIndex())
                 self.endpoint_marker_center = self.position_for_endpoint_marker(m)
                 self.endpoint_marker.setCenter(self.endpoint_marker_center)
-                self.endpoint_marker.setColor(Qt.gray)
+                self.endpoint_marker.setColor(Qt.green)
                 self.endpoint_marker.setVisible(True)
                 self.endpoint_marker.update()
             else:
@@ -525,7 +525,7 @@ class NodeTool(QgsMapToolAdvancedDigitizing):
             map_point = self.toMapCoordinates(e.pos())
             edge_center, is_near_center = self._match_edge_center_test(m, map_point)
             self.edge_center_marker.setCenter(edge_center)
-            self.edge_center_marker.setColor(Qt.red if is_near_center else Qt.gray)
+            self.edge_center_marker.setColor(Qt.blue if is_near_center else Qt.green)
             self.edge_center_marker.setVisible(True)
             self.edge_center_marker.update()
 
