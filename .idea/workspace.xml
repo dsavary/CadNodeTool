@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f5158e9-5f30-4df4-8ffc-5488ee84ffc2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodetool.py" afterPath="$PROJECT_DIR$/nodetool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CadNodeTool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="nodetool.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nodetool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46597353">
-              <caret line="484" column="54" selection-start-line="484" selection-start-column="54" selection-end-line="484" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.7133139">
+              <caret line="521" column="12" selection-start-line="521" selection-start-column="12" selection-end-line="521" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -145,8 +146,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/nodetool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46597353">
-          <caret line="484" column="54" selection-start-line="484" selection-start-column="54" selection-end-line="484" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.7133139">
+          <caret line="521" column="12" selection-start-line="521" selection-start-column="12" selection-end-line="521" selection-end-column="12" />
           <folding />
         </state>
       </provider>

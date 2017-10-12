@@ -519,6 +519,8 @@ class NodeTool(QgsMapToolAdvancedDigitizing):
             self.mouse_at_endpoint = None
             self.endpoint_marker_center = None
             self.endpoint_marker.setVisible(False)
+            self.snap_marker.setVisible(False)
+
 
         # possibility to create new node here - or to move the edge
         if m.type() == QgsPointLocator.Edge:
