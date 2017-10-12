@@ -93,7 +93,8 @@ class NodeTool(QgsMapToolAdvancedDigitizing):
         self.edge_center_marker = QgsVertexMarker(canvas)
         self.edge_center_marker.setIconType(QgsVertexMarker.ICON_BOX)
         self.edge_center_marker.setColor(Qt.red)
-        self.edge_center_marker.setPenWidth(1)
+        self.edge_center_marker.setPenWidth(2.5)
+        self.edge_center_marker.setIconSize(15)
         self.edge_center_marker.setVisible(False)
 
         # used only for moving standalone points
@@ -145,7 +146,8 @@ class NodeTool(QgsMapToolAdvancedDigitizing):
         self.endpoint_marker = QgsVertexMarker(canvas)
         self.endpoint_marker.setIconType(QgsVertexMarker.ICON_BOX)
         self.endpoint_marker.setColor(Qt.red)
-        self.endpoint_marker.setPenWidth(1)
+        self.endpoint_marker.setPenWidth(2.5)
+        self.endpoint_marker.setIconSize(15)
         self.endpoint_marker.setVisible(False)
 
         self.last_snap = None   # Match or None - to stick with previously highlighted feature
